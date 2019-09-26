@@ -8,6 +8,11 @@ module.exports = {
         saveBtn: {
             selector: '//button[@id="saveBtn"]',
             locateStrategy: 'xpath'
-        }
+         },
+         cancelBtn: {
+             selector: '//button[@name="cancel"]',
+             locateStrategy: 'xpath'
+         }
+
     }
 }

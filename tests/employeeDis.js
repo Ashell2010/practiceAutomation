@@ -28,6 +28,16 @@ module.exports = {
             .click('@saveBtn')
             .api.pause(2000)
 
+            employeeDis
+
+            .click('[name="employee7"]')
+            .clearValue('@nameField')
+            .setValue('@nameField', employee.phone )
+            .click('@cancelBtn')
+            .api.pause(2000)
+            
+            
+
         
 
 
