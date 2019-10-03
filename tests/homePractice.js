@@ -12,9 +12,9 @@ module.exports ={
         .click('//a[@id="nav-link-accountList"]')
         .click('//a[@class="nav-link nav-item"]')[15]
         browser
-        .pause(2000)
+        .pause(20)
         .click('//span[@class="nav-sprite nav-logo-base"]')
-        .pause(2000)
+        .pause(20)
         .setValue('//input[@type="text"]', 'Laptop Backpacks')
         .click('//input[@value="Go"]')[0]
         browser
@@ -24,7 +24,7 @@ module.exports ={
         .click('//input[@id="add-to-cart-button"]')
         // adding Tattoo Set to cart
         .click('//span[@class="nav-sprite nav-logo-base"]')
-        .pause(2000)
+        .pause(20)
         .setValue('//input[@type="text"]', 'tattoo set')
         .click('//input[@value="Go"]')[0]
         browser
@@ -34,7 +34,7 @@ module.exports ={
         .click('//input[@name="submit.add-to-cart"]')
         // go to checkout
         .click('//a[@id="hlb-ptc-btn-native"]')
-        .pause(2000)
+        .pause(20)
         // .setValue('//div[@class="a-row a-spacing-base"]', 'The Game')
 
 
